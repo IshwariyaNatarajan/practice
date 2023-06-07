@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Income and Expenditure</title>
+</head>
+<body>
+    <h1>Income and Expenditure</h1>
+
+    <div>
+        <h2>Total Income:</h2>
+        <p id="totalIncome"></p>
+    </div>
+
+    <div>
+        <h2>Total Expenditure:</h2>
+        <p id="totalExpenditure"></p>
+    </div>
+
+    <script>
+        // Fetch the calculated values from the Java code
+        var totalIncome = 3000.0;
+        var totalExpenditure = 1600.0;
+
+        // Update the HTML content with the calculated values
+        document.getElementById("totalIncome").innerHTML = totalIncome.toFixed(2);
+        document.getElementById("totalExpenditure").innerHTML = totalExpenditure.toFixed(2);
+    </script>
+</body>
+</html>
